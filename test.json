@@ -1,0 +1,43 @@
+{
+    "Isbn": "9789985346525",
+    "Title": "Harry Potter ja tarkade kivi",
+    "Author": "Rowling, J. K.",
+    "Publishear": 2019,
+    "SierraId": "5280640",
+    "RiksId": "4044004",
+    "UrramId": "7068051",
+
+    "Language.Code": "est",
+    "Language.Name": "Estonian",
+
+    "MaterialType.Code": "a",
+    "MaterialType.Name": "Book",
+
+    "Keyword.Value": "inglise",
+    "Keyword.Value": "lastekirjandus",
+    "Keyword.Value": "fantaasiaromaanid",
+
+    "Item.Id": "sierra-102002001",
+    "Item.Status.Code": "w",
+    "Item.Status.Name": "FOR USE IN LIBRARY",
+    "Item.Library.Code": "rrari",
+    "Item.Library.Name": "NL Rare Books Collection fl.3",
+    "Item.Library.Location.Lat": 58.42923,
+    "Item.Library.Location.Lon": 24.61234,
+
+    "Item.Id": "sierra-102002028",
+    "Item.Status.Code": "w",
+    "Item.Status.Name": "AVAILABLE",
+    "Item.Library.Code": "r2hdl",
+    "Item.Library.Name": "NL Stacks fl.2",
+    "Item.Library.Location.Lat": 58.21253,
+    "Item.Library.Location.Lon": 24.49134,
+
+    "Item.Id": "riks-402012048",
+    "Item.Status.Code": "w",
+    "Item.Status.Name": "AVAILABLE",
+    "Item.Library.Code": "a2dl2",
+    "Item.Library.Name": "raamatukogu nimi",
+    "Item.Library.Location.Lat": 58.92213,
+    "Item.Library.Location.Lon": 24.91134
+}

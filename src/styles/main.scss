@@ -1,0 +1,213 @@
+$border-radius: 2vh;
+$font-size: 2em;
+$font-color: whitesmoke;
+$font-dark-color: #4D4D4D;
+$font-dark-color-hover: #909090;
+$default-transition: 300ms;
+$border-color: #989DA3;
+
+body {
+    height: 100%;
+    background: whitesmoke no-repeat center center fixed;
+    font-size: $font-size;
+}
+
+.home-container {
+    margin: auto;
+    margin-top: 10vh;
+    display: flex;
+    max-width: 90%;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: $border-radius;
+}
+
+.content-container {
+    width: 70%;
+    margin: auto;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+    height: 2.5em;
+    border-radius: 1em !important;
+    box-shadow: rgba(64, 60, 67, 0.24) 0px 2px 8px 1px;
+
+    .search-input-col {
+        width: 80%;
+        border-top-left-radius: 1em !important;
+        border-bottom-left-radius: 1em !important;
+        padding: 0 10px;
+    }
+
+    .search-input {
+        width: 100%;
+        display: flex;
+        flex: 1;
+        margin: 0;
+        padding: 0;
+        border-right: 0;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+        background: none;
+        box-shadow: none;
+        border: none;
+        outline: none;
+    }
+
+    .search-input:focus {
+        box-shadow: none;
+        border: none;
+        -webkit-appearance: none;
+        outline: none;
+    }
+
+    .search-btn-col {
+        width: 21%;
+        height: 100%;
+        border-top-right-radius: 1em !important;
+        border-bottom-right-radius: 1em !important;
+        background-color: #EAECEE;
+        transition: $default-transition;
+    }
+
+    .search-btn-col:hover {
+        background-color: #D5DCE1;
+    }
+
+    .search-btn {
+        display: block;
+        flex: 0 0 auto;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        -webkit-transition: none;
+        -moz-transition: none;
+        -ms-transition: none;
+        -o-transition: none;
+        transition: none;
+        outline: none;
+        border: none !important;
+        background: none !important;
+        margin: 0;
+        padding: 0;
+        cursor: pointer;
+
+        span {
+            color: $font-dark-color;
+        }
+    }
+
+    .search-btn:focus {
+        box-shadow: none !important;
+        border: none !important
+    }
+
+    .search-icon {
+        font-size: 1em;
+        margin-right: 2px;
+
+        path {
+            stroke: $font-dark-color;
+        }
+    }
+}
+
+.additional-search-settings {
+    margin-top: 0.4em;
+
+    .additional-search-container {
+        transition: all .5s ease-in-out;
+    }
+
+    .additional-search-row {
+        text-align: right;
+        margin-right: 10px;
+        margin-top: 0.3em;
+
+        span {
+            cursor: pointer;
+            font-size: 0.9em;
+            color: $font-dark-color;
+            transition: $default-transition;
+        }
+
+        span:hover {
+            color: $font-dark-color-hover;
+        }
+    }
+}
+
+.chevron {
+    path {
+        stroke: $font-dark-color;
+        transition: $default-transition;
+    }
+
+    path:hover {
+        stroke: $font-dark-color-hover;
+    }
+}
+
+.book-container {
+    width: 100%;
+    margin: auto;
+    margin-top: 0.5em;
+}
+
+.book-row {
+    margin-top: 0.5em;
+    padding-bottom: 0.5em;
+    text-align: left;
+    border-bottom: 1px solid $border-color;
+
+    .title-field {
+        font-weight: 700;
+    }
+
+    .author-field {
+        font-size: 0.9em;
+    }
+
+    .additional-info-field {
+        font-size: 0.9em;
+    }
+
+    .libraries-field {
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;
+        color: #3498DB;
+        font-size: 0.7em;
+    }
+}
+
+.form-group {
+    text-align: left;
+    margin-bottom: 0 !important;
+
+    label {
+        display: block;
+        margin-left: 0.1em;
+        margin-bottom: 0;
+    }
+
+    input, select {
+        width: 100%;
+        height: 1.8em;
+    }
+}
+
+.three-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grid-gap-1 {
+    grid-gap: 1em;
+}
